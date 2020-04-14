@@ -1,0 +1,162 @@
+body {
+    background-color: #FFF5EE;
+}
+h1 {
+    font-family: 'Nixie One', cursive;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 6em;
+    color: #295F48;
+}
+
+h2 {
+    text-align: center;
+    padding-top: -40px;
+    font-family: 'Cinzel', serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+#box {
+    width: 700px;
+    height: 300px;
+    margin: 0px auto;
+    border: 2px solid #848482;
+    margin-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 20px;
+    background-color: #854442;
+}
+.score {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 5px;
+    width: 120px;
+    height: 40px;
+    margin: 0px auto;
+    border: 2px solid #848482;
+    margin-top: 50px;
+    font-family: 'Nixie One', sans-serif;
+    border-radius: 20px;
+    background-color: #eeb9dc;
+    text-align: center;
+    color: rgb(4, 13, 20);
+}
+
+
+table {
+    margin: 0px auto;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    color: black;
+}
+
+footer span a {
+    text-decoration: none;
+}
+.foot {
+    position: absolute; 
+    bottom: -60px; 
+    left: 1%; 
+    line-height: 1px;
+}
+.foot1 {
+    position: absolute;
+    bottom: -60px; 
+    right: 1%; 
+    line-height: 1px;
+}
+body {
+    background-color: aliceblue;
+  }
+  
+  .snow-bg {
+     content: '';
+     display: block;
+     position: absolute;
+     z-index: 2;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-image: url('http://www.mcctours.com.my/wp-content/uploads/2018/01/sakura-1-1.png'), url('http://www.mcctours.com.my/wp-content/uploads/2018/01/sakura-2.png');
+      animation: snow 10s linear infinite;
+  }
+  
+  @keyframes snow {
+   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+  }
+  
+  @media (max-width: 768px) {
+      .woocommerce ul.products li.product, 
+      .woocommerce-page ul.products li.product, 
+      .woocommerce-page[class*=columns-] ul.products li.product,
+      .woocommerce[class*=columns-] ul.products li.product {
+          width: 100%;
+          height: 100%;
+          float: left;
+          clear: both;
+          margin: 0 7em;
+      }
+  }
+  .money {
+    position: absolute;
+    top: 100;
+    left: 357px;
+}
+  .money0 {
+    display: block;
+     position: absolute;
+     top:22%;
+     /* left: 225px; */
+     /* top: 22%;
+    left: 14.75%; */
+    
+    /* width: 1300px; */
+
+    margin: 10px 100px 100px 230px;
+   
+  }
+  .money1 {
+    -moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+transform: scale(-1, 1);
+filter: FlipH;
+-ms-filter: "FlipH";
+position: absolute;
+left: 50%;
+  }
+  .score1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 5px;
+    width: 220px;
+    height: 40px;
+    margin: 0px auto;
+    border: 2px solid #848482;
+    margin-top: 50px;
+    font-family: 'Nixie One', sans-serif;
+    border-radius: 20px;
+    background-color: #eeb9dc;
+    text-align: center;
+    color: rgb(4, 13, 20);
+  }
+
+#conv {
+left: 590px;
+top: 58%;
+position: absolute;
+  }
